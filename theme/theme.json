@@ -1,0 +1,67 @@
+{
+  "prospect": {
+    "name": "Softr",
+    "short": "Softr",
+    "domain": "softr.io"
+  },
+  "title": "Softr vs The Blind Spots",
+  "tagline": "Made for Softr by PostHog",
+  "palette": {
+    "primary": "#386AF5",
+    "secondary": "#030712",
+    "accent": "#F53878"
+  },
+  "products": [
+    "session_replay",
+    "product_analytics",
+    "experiments",
+    "surveys",
+    "feature_flags"
+  ],
+  "music": {
+    "mood": "bright, fast, playful, builder energy, optimistic",
+    "bpm": 148
+  },
+  "text": {
+    "win": "Every build watched, every AI feature measured, and one bill finance actually likes. Ship, watch, learn.",
+    "lose": "The blind spots won this round. Rewatch the replay, find the rage click, and try again.",
+    "credits": "Made for the Softr product team by PostHog"
+  },
+  "game": {
+    "difficulty": "normal",
+    "starting_product": "session_replay",
+    "arena": {
+      "name": "The Softr Studio",
+      "sprite_prompt": "dark navy app builder canvas with a faint blue dot grid, seen from above"
+    },
+    "enemies": [
+      {
+        "name": "Paywall Gnat",
+        "pain": "Recordings? That will be an upgrade.",
+        "sprite_prompt": "a tiny pink gnat carrying a little padlock"
+      },
+      {
+        "name": "Blind Spot Bug",
+        "pain": "MCP and AI work you can't measure",
+        "sprite_prompt": "a round blue beetle wearing a blindfold, with antennae shaped like plugs"
+      },
+      {
+        "name": "Migration Moth",
+        "pain": "Switching sounds like a whole project",
+        "sprite_prompt": "a big slow grey moth carrying a stack of cardboard moving boxes"
+      }
+    ],
+    "boss": {
+      "name": "Grandfather Clause",
+      "taunt": "Your old price? Expired. Recordings cost extra now!",
+      "sprite_prompt": "a giant old beetle with a long white moustache, a monocle and a pocket watch"
+    },
+    "product_lines": {
+      "session_replay": "5k recordings free, every month",
+      "product_analytics": "Rebuild the dashboards in an afternoon",
+      "experiments": "Test AI Co-Builder prompts on a slice",
+      "surveys": "Ask builders what the AI got wrong",
+      "feature_flags": "Ship AI features to 5% first"
+    }
+  }
+}
